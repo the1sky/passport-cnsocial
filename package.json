@@ -1,0 +1,29 @@
+{
+  "name": "passport-cnsocial",
+  "version": "0.1.0",
+  "description": "passport for China social containing weixin,qq and weibo",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nant/passport-cnsocial"
+  },
+  "keywords": "passpport weixin weibo qq",
+  "author": "nant <dumingtan@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/nant/passport-cnsocial/issues"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "node-weixin-api": "^0.2.6",
+    "nodeweibo": "^2.0.4",
+    "passport-qq": "0.0.3",
+    "ua-parser-js": "^0.7.9"
+  },
+  "devDependencies": {
+    "express": "^4.13.3"
+  }
+}
